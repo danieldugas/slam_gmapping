@@ -432,7 +432,7 @@ SlamGMapping::initMapper(const sensor_msgs::LaserScan& scan)
   {
     ROS_WARN("Laser has to be mounted planar! Z-coordinate has to be 1 or -1, but gave: %.5f",
                  up.z());
-    return false;
+//     return false;
   }
 
   gsp_laser_beam_count_ = scan.ranges.size();

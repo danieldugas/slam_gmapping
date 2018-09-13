@@ -10,7 +10,7 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
-  <run_depend>openslam_gmapping</run_depend>
+  <run_depend>shlopenslam_gmapping</run_depend>
   <run_depend>gmapping</run_depend>
 
   <export>
